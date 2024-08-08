@@ -1,5 +1,5 @@
 # This script is used to configure and set up the project for packaging and distribution, providing metadata, and specifying where the packages and modules are located.
-
+# We can use it to deploy in pip or any other location later in future
 import setuptools
 
 with open("README.md","r",encoding="utf-8") as f:

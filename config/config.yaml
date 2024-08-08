@@ -1,0 +1,16 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/Chicken-fecal-images.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+
+# The artifacts_root sets the overall directory for storing artifacts.
+# The data_ingestion section configures specific parameters for downloading and extracting data, including:
+# - The URL to download data from (source_URL).
+# - The local path to save the downloaded zip file (local_data_file).
+# - The directory to extract the zip file contents (unzip_dir).
+# This YAML file provides a clear and structured way to manage the data ingestion process, ensuring that data is downloaded, stored, and extracted in a systematic manner.
