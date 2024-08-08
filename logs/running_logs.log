@@ -49,3 +49,153 @@ Source-Age: 0
 [2024-08-06 20:46:00,444: INFO: main: >>>>>>>> stage Data ingestion stage Completed <<<<<<<<< 
 
 X==============X]
+[2024-08-07 19:37:28,940: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 19:37:28,943: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 19:37:28,945: INFO: common: created directory at: artifacts]
+[2024-08-07 19:37:28,946: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-08-07 19:37:31,649: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-08-07 19:37:31,857: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-08-07 19:57:51,579: INFO: main: >>>>>>>> stage Data ingestion stage stareted <<<<<<<<<]
+[2024-08-07 19:57:51,582: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 19:57:51,585: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 19:57:51,586: INFO: common: created directory at: artifacts]
+[2024-08-07 19:57:51,587: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-07 19:57:54,188: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 842A:10F8:3C2D66:3F2CAC:66B43430
+Accept-Ranges: bytes
+Date: Thu, 08 Aug 2024 02:57:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bfi-krnt7300085-BFI
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1723085873.679049,VS0,VE432
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bdb2c4e05d40e266e5c50ee26f27d9bc46e7e485
+Expires: Thu, 08 Aug 2024 03:02:53 GMT
+Source-Age: 0
+
+]
+[2024-08-07 19:57:54,462: INFO: main: >>>>>>>> stage Data ingestion stage Completed <<<<<<<<< 
+
+X==============X]
+[2024-08-07 19:57:54,463: INFO: main: *******************]
+[2024-08-07 19:57:54,463: INFO: main: >>>>>>>> stage Prepare base model stareted <<<<<<<<<]
+[2024-08-07 19:57:54,465: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 19:57:54,468: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 19:57:54,469: INFO: common: created directory at: artifacts]
+[2024-08-07 19:57:54,469: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-08-07 19:57:54,469: ERROR: main: 'PrepareBaseModel' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "D:\3. My_Projects\Porfolio\ML Projects\ML Projects\Chicken desease Classification\main.py", line 25, in <module>
+    prepare_base_model .main()
+  File "d:\3. my_projects\porfolio\ml projects\ml projects\chicken desease classification\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model.download_file()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PrepareBaseModel' object has no attribute 'download_file'
+[2024-08-07 19:59:17,687: INFO: main: >>>>>>>> stage Data ingestion stage stareted <<<<<<<<<]
+[2024-08-07 19:59:17,690: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 19:59:17,690: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 19:59:17,692: INFO: common: created directory at: artifacts]
+[2024-08-07 19:59:17,692: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-07 19:59:18,745: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 842A:10F8:3C2D66:3F2CAC:66B43430
+Accept-Ranges: bytes
+Date: Thu, 08 Aug 2024 02:59:18 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bfi-krnt7300101-BFI
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723085958.453481,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ad0c7bed4203cfee1ebcf6dd2dda920de020271f
+Expires: Thu, 08 Aug 2024 03:04:18 GMT
+Source-Age: 86
+
+]
+[2024-08-07 19:59:18,947: INFO: main: >>>>>>>> stage Data ingestion stage Completed <<<<<<<<< 
+
+X==============X]
+[2024-08-07 19:59:18,947: INFO: main: *******************]
+[2024-08-07 19:59:18,947: INFO: main: >>>>>>>> stage Prepare base model stareted <<<<<<<<<]
+[2024-08-07 19:59:18,950: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 19:59:18,951: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 19:59:18,952: INFO: common: created directory at: artifacts]
+[2024-08-07 19:59:18,952: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-08-07 19:59:18,952: ERROR: main: 'PrepareBaseModel' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "D:\3. My_Projects\Porfolio\ML Projects\ML Projects\Chicken desease Classification\main.py", line 25, in <module>
+    prepare_base_model.main()
+  File "d:\3. my_projects\porfolio\ml projects\ml projects\chicken desease classification\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model.download_file()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PrepareBaseModel' object has no attribute 'download_file'
+[2024-08-07 20:04:05,064: INFO: main: >>>>>>>> stage Data ingestion stage stareted <<<<<<<<<]
+[2024-08-07 20:04:05,066: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 20:04:05,068: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 20:04:05,069: INFO: common: created directory at: artifacts]
+[2024-08-07 20:04:05,071: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-07 20:04:06,305: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 842A:10F8:3C2D66:3F2CAC:66B43430
+Accept-Ranges: bytes
+Date: Thu, 08 Aug 2024 03:04:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bfi-krnt7300104-BFI
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723086246.902906,VS0,VE108
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 43f74ff144a8f5f3a5021adc558506a75c072c90
+Expires: Thu, 08 Aug 2024 03:09:06 GMT
+Source-Age: 0
+
+]
+[2024-08-07 20:04:06,537: INFO: main: >>>>>>>> stage Data ingestion stage Completed <<<<<<<<< 
+
+X==============X]
+[2024-08-07 20:04:06,537: INFO: main: *******************]
+[2024-08-07 20:04:06,538: INFO: main: >>>>>>>> stage Prepare base model stareted <<<<<<<<<]
+[2024-08-07 20:04:06,539: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 20:04:06,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 20:04:06,542: INFO: common: created directory at: artifacts]
+[2024-08-07 20:04:06,542: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-08-07 20:04:06,927: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-08-07 20:04:07,082: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-08-07 20:04:07,196: INFO: main: >>>>>>>> stage Prepare base model Completed <<<<<<<<< 
+
+X==============X]
